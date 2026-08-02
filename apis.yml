@@ -1,8 +1,25 @@
 aid: trustid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustid.png
 name: Trustid
-description: 'Trustid is a company surfaced as a portfolio company of norwest-venture-partners, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: TRUSTID was a Portland, Oregon telephone caller-authentication and call-center
+  anti-fraud company led by CEO Patrick Cox, authenticating inbound callers pre-answer without
+  knowledge-based interrogation of the caller. Surfaced as a portfolio company of Norwest Venture
+  Partners and Trinity Ventures, TRUSTID was acquired by Neustar (closed January 2019), and Neustar
+  was itself acquired by TransUnion in December 2021, where the caller-authentication capability
+  lives on in Trusted Call Solutions. TRUSTID no longer operates independently and publishes no
+  public API surface — trustid.com is unresponsive and www.trustid.com returns HTTP 503 from
+  Neustar redirect infrastructure.
 url: https://raw.githubusercontent.com/api-evangelist/trustid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: acquired
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-acquired-by: neustar (2019), now part of transunion (2021)
 tags:
 - Company
-- Unknown
+- Caller Authentication
+- Identity
+- Fraud Prevention
+- Call Centers
+- Telecommunications
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +53,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trustid-domain-security.yml
+- type: LLMsTxt
+  url: llms/trustid-llms.txt
 - type: Website
   url: https://trustid.com

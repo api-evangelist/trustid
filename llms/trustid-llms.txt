@@ -1,0 +1,14 @@
+# Trustid
+
+> TRUSTID was a Portland, Oregon telephone (caller) authentication and call-center anti-fraud company led by CEO Patrick Cox. It authenticated inbound callers before the call was answered, without interrogating the caller. TRUSTID was acquired by Neustar (announced December 2018, closed January 2019), and Neustar was subsequently acquired by TransUnion in December 2021, where the caller-authentication capability lives on inside TransUnion's Trusted Call Solutions. TRUSTID no longer operates as an independent company and publishes no public API surface: trustid.com does not respond and www.trustid.com points at Neustar redirect infrastructure that returns HTTP 503.
+
+This profile is maintained by API Evangelist as part of the APIs.io network. TRUSTID was surfaced as a portfolio company of Norwest Venture Partners and Trinity Ventures.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/trustid/refs/heads/main/apis.yml): Machine-readable profile for this company
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/trustid/refs/heads/main/security/trustid-domain-security.yml): DNS/TLS posture of trustid.com (probed)
+
+## APIs
+
+No public APIs are known for this company. The company was acquired and its web presence is defunct; successor capabilities are offered by TransUnion (https://www.transunion.com).
